@@ -22,11 +22,11 @@ body {
 
 .footer {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	padding: 20px;
-	justify-content: space-between;
+	gap: 20px;
 }
 
 .footer-logo {
@@ -254,5 +254,17 @@ input[type="radio"] {
 
 	.box-text {
 			margin-left: 20px;
+	}
+
+	.footer {
+			flex-direction: row;
+			justify-content: space-between;
+			text-align: left;
+	}
+
+	.footer-logo,
+	.footer-address,
+	.footer-contact {
+			margin-bottom: 0;
 	}
 }
