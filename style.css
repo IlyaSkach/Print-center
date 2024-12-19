@@ -109,6 +109,9 @@ body {
 .nav-button{
 	align-items: center;
 	display: flex;
+	max-width: 375px;
+	text-align: center;
+	color: #000;
 }
 
 .links {
@@ -118,6 +121,8 @@ body {
 .navigation-buttons{
 	display: flex;
 	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .links ul {
